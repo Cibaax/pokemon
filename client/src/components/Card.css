@@ -1,0 +1,11 @@
+
+.cardPokemon{
+    
+    width: 600px;
+    height: auto;
+    display: flex;
+}
+
+.cardPokemon img{
+    height: 300px;
+}

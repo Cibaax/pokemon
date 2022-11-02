@@ -1,0 +1,12 @@
+*{
+  background-color: azure;
+}
+.container{
+  width: 100vw;
+  
+
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+}
