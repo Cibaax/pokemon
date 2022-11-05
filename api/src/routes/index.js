@@ -99,22 +99,6 @@ router.get('/get/:id',async (req,res)=>{
     }
 
 })
-//route create pokemon
 
-/* router.post('/create', async (req,res)=>{
-    const{
-        name, health, attack, defense, speed, height, weight, img
-    }=req.body
-    if(!name || !health || !attack || !defense || !speed || !height || !weight || !img){
-        return res.status(400).json()({
-            info: 'no values'
-        })
-    }
-    let arrType =[]
-    req.body.types.map(e=> arrType.push({name:e}))
-    if(!arrType.length){return res.status(400).json({info: 'choose a type'})}
-    const exist = await pokemon.findOne({where: {name:req.body.name}})
-    if(exist) return res.json ({info: 'already exists'})
-}) */
 
 module.exports = router;

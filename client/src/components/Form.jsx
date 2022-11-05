@@ -18,7 +18,7 @@ export default function Form(){
       ...pokemon,
       [e.target.name]: e.target.value,
     })
-    console.log(pokemon)
+    
   }
   function handleSubmit(){
 

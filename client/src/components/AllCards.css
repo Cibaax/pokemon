@@ -1,12 +1,14 @@
 *{
-  background-color: azure;
+  background-color: rgb(168, 230, 230);
 }
 .container{
   width: 100vw;
-  
-
+  height: 95vh;
+  display: flex;
 }
 .cards{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  
 }
